@@ -1,7 +1,75 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   text-align: center;
+  margin: 30px;
+  margin-bottom: 50px;
+  font-size: 50px;
+}
+
+ul {
+  list-style: none;
+}
+
+.card-container {
+  border: 2px solid black;
+  height: 400px;
+  width: 600px;
+}
+
+.container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.container-q-card {
+  border: 2px solid black;
+  height: 320px;
+  width: 550px;
+  position: relative;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 2.5rem;
+}
+
+button {
+  font-size: 1.2rem;
+  margin-top: 40px;
+  width: 250px;
+  height: 70px;
+}
+
+.button-container {
+  text-align: center;
+}
+
+.container-tags {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  margin-left: 15px;
+  margin-top: 40px;
+}
+
+.container-tags > li {
+  font-size: 1.1rem;
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+img {
+  height: 70px;
+  position: absolute;
+  right: 20px;
+  top: -15px;
 }
